@@ -1,0 +1,187 @@
+
+body{
+	background-color: #f2f2f2;
+}
+section{
+	height: 550px;
+	background-color: white;
+	box-shadow: 0  2px 5px rgba(0,0,0,0.4);
+	width: 100%;
+	margin-top: 50px;
+	margin-left: 0px;
+	border-radius: 8px;
+}
+.h3log{
+	text-align: center;
+	padding-top: 50px;
+	color: grey;
+	font-weight: 600;
+}
+.h4log{
+	text-align: center;
+	padding-top: -50px;
+	font-weight: 700;
+
+}
+.hayukhr{
+	width: 30%;
+	border-color: orange;
+}
+.textbox{
+	width: 60%;
+	overflow: hidden;
+	font-size: 20px;
+	padding:8px 0;
+	margin:8px 0;
+	margin-left: 75px;
+	margin-top: -10px;
+	border-bottom: 1px solid grey;
+}
+.textbox i{
+	width: 26px;
+	text-align: center;
+}
+.textbox input{
+	border:none;
+	outline: none;
+	background:none;
+	color:grey;
+	font-size: 18px;
+	width: 100%;
+	margin: 0 1-px;
+}
+.btn{
+	background: linear-gradient(to right, #ffff00 2%, #ff9933 98%);
+	margin-left: 93px;
+	margin-top: 30px;
+	width: 50%;
+	border-radius: 15px;
+	font-weight: 600;
+}
+/*utility*/
+.tombol{
+	text-transform: uppercase;
+	border-radius: 40px;
+	text-shadow: 1px 0px 1px black;
+	font-family: 'Alata', sans-serif;
+	
+}
+.button1{
+		text-transform: uppercase;
+		text-shadow: 1px 0px 1px black;
+		width: 50%;
+		margin-top: 3px;
+	}
+/*jumbroton*/
+.jumbotron{
+	background-image: url("../img/judulgambar.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 660px;
+	text-align: center;
+	position: relative;
+	margin-top: -30px;
+	font-family: monoton;
+	background-attachment: fixed;	
+
+}
+.jumbotron .container{
+	z-index: 1;
+	position: relative;
+}
+.jumbotron::after{
+	content: '';
+	display: block;
+	width: 100%;
+	height:100%;
+	background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(1,0,0,0));
+	position: absolute;
+	bottom: 0;
+}
+.jumbotron .display-4{
+	color: white;
+	margin-top: 210px;
+	font-size: 23px;
+	font-family: 'Alata', sans-serif;
+	
+}
+.jumbotron .span1{
+		color: white;
+		font-size: 27px;
+	font-family: 'Alata', sans-serif;
+		font-weight: 500;
+		font-weight: 400;
+	}
+	.jumbotron .span2{
+		color:white;
+		font-size: 27px;
+	font-family: 'Alata', sans-serif;
+		font-weight: 400;
+	}
+	.jumbotron  span{
+		
+		font-size:16px;
+	}
+
+
+
+
+@media (min-width: 992px) {
+	section{
+	height: 600px;
+	background-color: white;
+	box-shadow: 0  2px 5px rgba(0,0,0,0.4);
+	width: 35%;
+	margin-top: 30px;
+	margin-left: 380px;
+	border-radius: 8px;
+}
+.h3log{
+	text-align: center;
+	padding-top: 50px;
+	color: grey;
+	font-weight: 600;
+}
+.h4log{
+	text-align: center;
+	padding-top: -50px;
+	font-weight: 700;
+
+}
+.hayukhr{
+	width: 30%;
+	border-color: orange;
+}
+.textbox{
+	width: 60%;
+	overflow: hidden;
+	font-size: 20px;
+	padding:8px 0;
+	margin:8px 0;
+	margin-left: 75px;
+	margin-top: -10px;
+	border-bottom: 1px solid grey;
+}
+.textbox i{
+	width: 26px;
+	text-align: center;
+}
+.textbox input{
+	border:none;
+	background:none;
+	outline: :none;
+	color:grey;
+	font-size: 18px;
+	width: 100%;
+	margin: 0 1-px;
+}
+.btn{
+	background: linear-gradient(to right, #ffff00 2%, #ff9933 98%);
+	margin-left: 95px;
+	margin-top: 30px;
+	width: 50%;
+	border-radius: 15px;
+	font-weight: 600;
+}
+.
+}

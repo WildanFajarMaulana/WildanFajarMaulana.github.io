@@ -1,0 +1,514 @@
+/*navbar*/
+.navbar-click{
+	background-color: black;
+	transition: .3s ease-in-out;
+	min-height: 280px;
+
+}
+
+.navbar-fixed{
+		transition:  .3s ease-in-out;
+		background-color: black;
+		width: 100%;
+		height: 60px;
+		position: fixed;
+		top: 0px;
+
+	}
+.navbar-brand{
+	font-family: 'Alata', sans-serif;
+	font-size: 25px;
+
+
+}
+.nav-link{
+	text-transform: uppercase;
+	margin-right: 20px;
+}
+.navbar-brand, .nav-link{
+	color: white !important;
+	text-shadow: 1px 1px 1px black;
+	}
+.nav-link{
+	text-transform: uppercase;
+	margin-right: 30px;
+	}
+.nav-link:hover::after{
+	content: '';
+	display: block;
+	border-bottom:3px solid orange;
+	width: 100%;
+	margin:auto;
+	padding-bottom: 5px;
+	margin-bottom: -8px;
+	background-color: white;
+	}
+.navbar-toggler{
+	margin-left: 340px;
+	margin-top: 10px;
+}
+
+/*utility*/
+.tombol{
+	text-transform: uppercase;
+	border-radius: 40px;
+	text-shadow: 1px 0px 1px black;
+	font-family: 'Alata', sans-serif;
+	
+}
+.button1{
+		text-transform: uppercase;
+		text-shadow: 1px 0px 1px black;
+		width: 50%;
+		margin-top: 3px;
+	}
+/*jumbroton*/
+.jumbotron{
+	background-image: url("../img/kontakbg.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 660px;
+	text-align: center;
+	position: relative;
+	margin-top: -30px;
+	font-family: monoton;
+	background-attachment: fixed;	
+
+}
+.jumbotron .container{
+	z-index: 1;
+	position: relative;
+}
+.jumbotron::after{
+	content: '';
+	display: block;
+	width: 100%;
+	height:100%;
+	background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(1,0,0,0));
+	position: absolute;
+	bottom: 0;
+}
+.jumbotron .display-4{
+	color: white;
+	margin-top: 210px;
+	font-size: 25px;
+	font-family: 'Alata', sans-serif;
+	
+}
+	
+	.jumbotron  span{
+		color: white;
+		font-size:16px;
+		font-family: 'Quicksand', sans-serif;
+	}
+	.book1{
+		box-shadow: 0 3px 5px rgba(0,0,0,0.5);
+		background-color:white ;
+		margin-left: 50px;
+		margin-right: 50px;
+		margin-top: 70px;
+	}
+	.book1 img{
+		margin-top: -50px;
+	}
+	
+/*isi*/
+.product{
+	text-align: center;
+	color: #b3b3b3;
+	font-weight: 700;
+	margin-top: 0px;
+}
+.isinya{
+	text-align: center;
+	color: black;
+	font-weight: 600;
+}
+
+
+/*info panel*/
+.infoku{
+	margin-top: 50px;
+	
+}
+.infoku img{
+	width: 80px;
+	height: 80px;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+.infoku h4{
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 20px;
+
+}
+.infoku p{
+	text-align:center;
+	
+} 
+
+.font1{
+	box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+	border-radius: 12px;
+	background-color: white;
+	margin-top: 10px;
+	width: 80%;
+	margin-left: 5px;
+}
+.font2{
+	box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+	border-radius: 12px;
+	background-color: white;
+	margin-top: 10px;
+	width: 80%;
+	margin-left: 5px;
+}
+.font3{
+	box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+	border-radius: 12px;
+	background-color: white;
+	margin-top: 10px;
+	width: 80%;
+	margin-left: 5px;
+}
+.font4{
+	box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+	border-radius: 12px;
+	background-color: white;
+	width: 80%;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+/*parallax*/
+.parallax{
+	background-image: url("../img/judulgambar.jpg");
+	height: 200px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: 40px;
+	font-family: 'Alata', sans-serif;
+}
+.parallax .display-3{
+	
+	font-size: 15px;
+	margin-bottom: 20px;
+	color: #eaeaea;
+	font-family: 'Quicksand', sans-serif;
+	margin-top: 30px;
+}
+.parallax .display-3 span{
+	font-weight: 500;
+	font-size: 27px;
+	font-family: 'Alata', sans-serif;
+	color:#eaeaea;
+
+}
+/*footer*/
+.footer{
+		height: 640px;
+		background-color:#1a1a1a;
+	}
+	.fmari{
+		margin-top: 20px;
+		color: white;
+		border-left: 5px solid orange;
+		margin-left: 0px;
+	}
+	.fweb{
+		color: white;
+		padding-top: 6px;
+		padding-left:0px;
+	}
+	.flink{
+		margin-top: 20px;
+		margin-left: 0px;
+		color: white;
+		border-left: 5px solid orange;
+	}
+	.flinks a {
+		color: white;
+		padding-top: 6px;
+		padding-left: 0px;
+	}
+	.fkontak{
+		margin-top: 20px;
+		margin-left: 0px;
+		color: white;
+		border-left: 5px solid orange;
+	}
+	.fkontaks{
+		color: white;
+		padding-top: 6px;
+		padding-left: 0px;
+	}
+	.wa{
+		width: 30px;
+		margin-top: 0px;
+		margin-left: 0px;
+	}
+	.fb{
+		width: 30px;
+		margin-top: 0px;
+		margin-left: 30px;
+	}
+	.ig{
+		width: 30px;
+		margin-top: 0px;
+		margin-left: 30px;
+	}
+	.footer2{
+		background-color: #000000;
+		height: 80px;	
+	}
+	.footer2 h4{
+		margin-top: 30px;
+		color: white;
+		font-size: 14px;
+		font-weight: 600;
+	}
+	
+	.btn{
+		background: linear-gradient(to right, #ffff00 2%, #ff9933 98%);
+	}
+	.h4bre{
+		font-family: 'Alata', sans-serif;
+	}
+
+
+
+
+
+/*dekstop*/
+@media (min-width: 992px) { 
+		.navbar{
+			background-color: transparent;
+			transition:  .3s ease-in-out;
+			height: 80px;
+			z-index: 99999;
+
+
+		}
+		.navbar-fixed{
+			transition:  .3s ease-in-out;
+			background-color: black;
+			width: 100%;
+			height: 60px;
+			position: fixed;
+			top: 0px;
+
+		}
+		.navbar-brand, .nav-link{
+			color: white !important;
+			text-shadow: 1px 2px 1px black;
+			font-weight: 600;
+			font-family: 'Alata', sans-serif;
+		}
+		.nav-link{
+			text-transform: uppercase;
+			margin-right: 30px;
+		}
+		.nav-link:hover::after{
+			content: '';
+			display: block;
+			border-bottom:3px solid orange;
+			width: 100%;
+			margin:auto;
+			padding-bottom: 5px;
+			margin-bottom: -8px;
+		}
+	.jumbotron{
+		background-image: url("../img/kontakbg.jpg");
+		background-size: cover;
+		height: 735px;
+		margin-top: -80px;
+		background-attachment: fixed;	
+		font-family: 'Alata', sans-serif;
+	}
+	.jumbotron::after{
+	content: '';
+	display: block;
+	width: 100%;
+	height:100%;
+	background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(1,0,0,0));
+	position: absolute;
+	bottom: 0;
+	}
+	.jumbotron .display-4{
+	font-size: 73px;
+	font-family: 'Alata', sans-serif;
+	text-shadow: 1px 1px 10px rgba(0,0,0,0.9);
+	letter-spacing: 2px;
+	top: 0px;
+	}
+	.jumbotron  span{
+		font-size: 25px;
+		color:white;
+		font-family: 'Quicksand', sans-serif;
+		
+	}
+	.book1 , .book2	{
+		box-shadow: 0 3px 5px rgba(0,0,0,0.5);
+		background-color:white ;
+		margin-left: 50px;
+		margin-right: 50px;
+		margin-top: 50px;	
+	}
+	.h4bre{
+		font-family: 'Alata', sans-serif;
+	}
+	.book1 img{
+		margin-top: -50px;
+	}
+	.book2 img{
+		margin-top: -50px;
+	}
+
+	.infoku .font1{
+		opacity: 1;
+	}
+
+	.infoku .font1 .muncul{
+		opacity: 1;
+		
+	}
+
+
+
+
+
+
+	.font1{
+		box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+		border-radius: 10%;
+		background-color: white;
+		margin-left: : 20px;
+	}
+	.font2{
+		box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+		border-radius: 10%;
+		background-color: white;
+		margin-left: 20px;
+	}
+	.font3{
+		box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+		border-radius: 10%;
+		background-color: white;
+		margin-left: 20px;
+	}
+	.font4{
+		box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+		border-radius: 10%;
+		background-color: white;
+		margin-left: 20px;
+		margin-right: 5px;
+	}
+	.parallax{
+		background-image: url("../img/judulgambar.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 400px;
+		background-attachment: fixed;
+		padding-top: 30px;
+		margin-top: 80px;
+	}
+	.parallax::after{
+	content: '';
+	display: block;
+	width: 100%;
+	height:100%;
+	background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(1,0,0,0));
+	position: absolute;
+	bottom: 0;
+	}
+	.tombol{
+		text-transform: uppercase;
+		border-radius: 40px;
+		text-shadow: 1px 0px 1px black;
+	}
+	.button1{
+		text-transform: uppercase;
+		border-radius: 40px;
+		text-shadow: 1px 0px 1px black;
+	}
+	.parallax .display-3{
+	
+		font-size: 20px;
+		margin-bottom: 20px;
+		color: #eaeaea;
+		font-family: 'Quicksand', sans-serif;
+		margin-top: 120px;
+	}
+	.parallax .display-3 span{
+		font-weight: 500;
+		font-size: 50px;
+		color:#eaeaea;
+		font-family: 'Alata', sans-serif;
+	}
+	
+	
+	.footer{
+		height: 250px;
+		background-color:#1a1a1a;
+	}
+	.fmari{
+		margin-top: 20px;
+		color: white;
+		border-left: 5px solid orange;
+		margin-left: 120px;
+	}
+	.fweb{
+		color: white;
+		padding-top: 6px;
+		padding-left:120px;
+	}
+	.flink{
+		margin-top: 20px;
+		margin-left: 140px;
+		color: white;
+		border-left: 5px solid orange;
+	}
+	.flinks a {
+		color: white;
+		padding-top: 6px;
+		padding-left: 140px;
+	}
+	.fkontak{
+		margin-top: 20px;
+		margin-left: 40px;
+		color: white;
+		border-left: 5px solid orange;
+	}
+	.fkontaks{
+		color: white;
+		padding-top: 6px;
+		padding-left: 40px;
+	}
+	.wa{
+		width: 40px;
+		margin-top: 20px;
+		margin-left: 120px;
+	}
+	.fb{
+		width: 40px;
+		margin-top: 20px;
+		margin-left: 30px;
+	}
+	.ig{
+		width: 40px;
+		margin-top: 20px;
+		margin-left: 30px;
+	}
+	.footer2{
+		background-color: #000000;
+		height: 50px;	
+	}
+	.footer2 h4{
+		margin-top: 14px;
+		color: white;
+		font-size: 14px;
+		font-weight: 600;
+	}
+}
