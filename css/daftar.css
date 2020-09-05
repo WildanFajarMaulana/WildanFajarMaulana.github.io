@@ -52,7 +52,6 @@ section{
 }
 .btn{
 	background: linear-gradient(to right, #ffff00 2%, #ff9933 98%);
-	margin-left: 83px;
 	margin-top: 30px;
 	width: 50%;
 	border-radius: 15px;
@@ -175,7 +174,6 @@ section{
 }
 .btn{
 	background: linear-gradient(to right, #ffff00 2%, #ff9933 98%);
-	margin-left: 95px;
 	margin-top: 30px;
 	width: 50%;
 	border-radius: 15px;

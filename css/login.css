@@ -28,7 +28,6 @@ section{
 }
 .img-fluid{
 	height: 200px;
-	margin-left: 75px;
 	margin-top: -20px;
 }
 .textbox{
@@ -56,14 +55,12 @@ section{
 }
 .btn{
 	background: linear-gradient(to right, #ffff00 2%, #ff9933 98%);
-	margin-left: 80px;
 	margin-top: 30px;
 	width: 50%;
 	border-radius: 15px;
 	font-weight: 600;
 }
 .daftar{
-	margin-left: 73px;
 	margin-top: 20px;
 }
 
@@ -111,7 +108,6 @@ section{
 }
 .img-fluid{
 	height: 200px;
-	margin-left: 95px;
 	margin-top: -20px;
 }
 .textbox{
@@ -120,34 +116,26 @@ section{
 	font-size: 20px;
 	padding:8px 0;
 	margin:8px 0;
-	margin-left: 75px;
 	margin-top: -10px;
 	border-bottom: 1px solid grey;
-}
-.textbox i{
-	width: 26px;
-	text-align: center;
+	margin-left: 75px;
 }
 .textbox input{
 	border:none;
 	outline: none;
 	background:none;
-	
 	font-size: 18px;
 	width: 100%;
-
 
 }
 .btn{
 	background: linear-gradient(to right, #ffff00 2%, #ff9933 98%);
-	margin-left: 95px;
 	margin-top: 30px;
 	width: 50%;
 	border-radius: 15px;
 	font-weight: 600;
 }
 .daftar{
-	margin-left: 100px;
 	margin-top: 30px;
 }
 

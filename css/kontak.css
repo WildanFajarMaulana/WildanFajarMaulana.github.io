@@ -7,7 +7,7 @@
 	transition:  .3s ease-in-out;
 	background-color: black;
 	width: 100%;
-	height: 60px;
+	height: 80px;
 	position: fixed;
 	top: 0px;
 }
@@ -37,8 +37,8 @@
 	margin-bottom: -8px;
 }
 .navbar-toggler{
-	margin-left: 290px;
-	margin-top: -40px;
+	text-align: right;
+	margin-top: 7px;
 }
 .jumbotron{
 	background-image: url("../img/tema3.jpg");
@@ -229,12 +229,12 @@
 	border-color:  orange;
 }
 .fa-map-marker-alt{
-	margin-left: 155px;
+	text-align: center;		
 	margin-top: 13px;
 	color: orange;
 }
 .hrbox{
-	width: 10%;
+	width: 20%;
 	border-color:  black;
 }
 .h2ni{
@@ -250,12 +250,12 @@
 	margin-top: -5px;
 }
 .fa-envelope{
-	margin-left: 149px;
+	text-align: center;
 	margin-top: 30px;
 	color: orange;
 }
 .fa-phone{
-	margin-left: 153px;
+	text-align: center;
 	margin-top: 30px;
 	color: orange;
 }
@@ -277,7 +277,6 @@
 	height: 150px;
 }
 .btbro{
-	margin-left: 88px;
 	background: linear-gradient(to right, #ffff00 2%, #ff9933 98%);
 	margin-top: 30px;
 	width: 50%;
@@ -369,7 +368,6 @@
 	width:90%;
 	box-shadow: 0  2px 5px rgba(0,0,0,0.4);
 	margin-left: 60px;
-	margin-top: -205px;
 	background-color: white;
 }
 .kotak1{
@@ -428,12 +426,11 @@
 	border-color:  orange;
 }
 .fa-map-marker-alt{
-	margin-left: 445px;
 	margin-top: 13px;
 	color: orange;
 }
 .hrbox{
-	width: 10%;
+	width: 15%;
 	border-color:  black;
 }
 .h2ni{
@@ -448,19 +445,16 @@
 	margin-top: -5px;
 }
 .fa-envelope{
-	margin-left: 100px;
 	margin-top: 30px;
 	color: orange;
 }
 .fa-phone{
-	margin-left: 100px;
 	margin-top: 30px;
 	color: orange;
 }
 .inputan1 input{
 	margin-top: 20px;
 	width: 96%;
-	margin-left: 15px;
 }
 .inputan2 input{
 	margin-top: 20px;
@@ -475,7 +469,6 @@
 	height: 150px;
 }
 .btbro{
-	margin-left: 420px;
 	background: linear-gradient(to right, #ffff00 2%, #ff9933 98%);
 	margin-top: 30px;
 }

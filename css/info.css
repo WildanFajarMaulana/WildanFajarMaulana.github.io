@@ -7,7 +7,7 @@
 	transition:  .3s ease-in-out;
 	background-color: black;
 	width: 100%;
-	height: 60px;
+	height: 80px;
 	position: fixed;
 	top: 0px;
 }
@@ -37,8 +37,8 @@
 	margin-bottom: -8px;
 }
 .navbar-toggler{
-	margin-left: 290px;
-	margin-top: -40px;
+	text-align: right;
+	margin-top: 7px;
 }
 .tombol{
 	text-transform: uppercase;
@@ -80,7 +80,7 @@
 .jumbotron .display-4{
 	color: white;
 	margin-top: 210px;
-	font-size: 23px;
+	font-size: 20px;
 	font-family: 'Alata', sans-serif;
 	text-shadow: 1px 1px 10px rgba(0,0,0,0.9);
 	
@@ -107,14 +107,14 @@
 }
 .h3info{
 	padding-top: 40px;
-	margin-left: 150px;
+	text-align: center;
 	font-weight: 600;
 }
 .gradnew{
 	width: 150px;
 	height: 100px;
-	margin-left: 100px;
 	margin-top: 10px;
+
 }
 .h5info{
 	text-align: center;
@@ -122,7 +122,7 @@
 	font-weight: 600;
 }
 .btn-primary{
-	margin-left: 38px;
+	
 	margin-top: 20px;
 	width: 80%;
 	background: linear-gradient(to right, #ffff00 2%, #ff9933 98%);
@@ -303,13 +303,11 @@
 }
 .h3info{
 	padding-top: 40px;
-	margin-left: 245px;
 	font-weight: 600;
 }
 .gradnew{
 	width: 150px;
 	height: 100px;
-	margin-left: 195px;
 	margin-top: 30px;
 }
 .h5info{
@@ -318,7 +316,6 @@
 	font-weight: 600;
 }
 .btn-primary{
-	margin-left: 50px;
 	margin-top: 20px;
 	width: 80%;
 	background: linear-gradient(to right, #ffff00 2%, #ff9933 98%);
