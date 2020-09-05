@@ -37,7 +37,7 @@
 	margin-bottom: -8px;
 }
 .navbar-toggler{
-	margin-left: 320px;
+	margin-left: 290px;
 	margin-top: -40px;
 }
 .jumbotron{
@@ -229,7 +229,7 @@
 	border-color:  orange;
 }
 .fa-map-marker-alt{
-	margin-left: 175px;
+	margin-left: 155px;
 	margin-top: 13px;
 	color: orange;
 }
@@ -250,12 +250,12 @@
 	margin-top: -5px;
 }
 .fa-envelope{
-	margin-left: 168px;
+	margin-left: 149px;
 	margin-top: 30px;
 	color: orange;
 }
 .fa-phone{
-	margin-left: 168px;
+	margin-left: 153px;
 	margin-top: 30px;
 	color: orange;
 }
@@ -277,9 +277,10 @@
 	height: 150px;
 }
 .btbro{
-	margin-left: 160px;
+	margin-left: 88px;
 	background: linear-gradient(to right, #ffff00 2%, #ff9933 98%);
 	margin-top: 30px;
+	width: 50%;
 }
 .btbro:hover{
 	color: black;
