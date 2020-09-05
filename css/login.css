@@ -52,18 +52,18 @@ section{
 	color:grey;
 	font-size: 18px;
 	width: 100%;
-	margin: 0 1-px;
+	
 }
 .btn{
 	background: linear-gradient(to right, #ffff00 2%, #ff9933 98%);
-	margin-left: 93px;
+	margin-left: 96px;
 	margin-top: 30px;
 	width: 50%;
 	border-radius: 15px;
 	font-weight: 600;
 }
 .daftar{
-	margin-left: 95px;
+	text-align: center;
 	margin-top: 20px;
 }
 

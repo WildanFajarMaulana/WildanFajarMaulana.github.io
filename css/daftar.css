@@ -67,12 +67,11 @@ section{
 	
 }
 .button1{
-		text-transform: uppercase;
-		text-shadow: 1px 0px 1px black;
-		width: 50%;
-		margin-top: 3px;
-	}
-/*jumbroton*/
+	text-transform: uppercase;
+	text-shadow: 1px 0px 1px black;
+	width: 50%;
+	margin-top: 3px;
+}
 .jumbotron{
 	background-image: url("../img/judulgambar.jpg");
 	background-size: cover;
@@ -106,21 +105,20 @@ section{
 	
 }
 .jumbotron .span1{
-		color: white;
-		font-size: 27px;
+	color: white;
+	font-size: 27px;
 	font-family: 'Alata', sans-serif;
-		font-weight: 500;
-		font-weight: 400;
+	font-weight: 500;
+	font-weight: 400;
 	}
-	.jumbotron .span2{
-		color:white;
-		font-size: 27px;
+.jumbotron .span2{
+	color:white;
+	font-size: 27px;
 	font-family: 'Alata', sans-serif;
-		font-weight: 400;
+	font-weight: 400;
 	}
-	.jumbotron  span{
-		
-		font-size:16px;
+.jumbotron  span{	
+	font-size:16px;
 	}
 
 
@@ -183,5 +181,4 @@ section{
 	border-radius: 15px;
 	font-weight: 600;
 }
-.
 }
