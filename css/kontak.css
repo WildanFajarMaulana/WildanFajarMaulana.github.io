@@ -49,7 +49,6 @@
 	position: relative;
 	margin-top: -30px;
 	font-family: monoton;
-	background-attachment: fixed;
 }
 .jumbotron .container{
 	z-index: 1;

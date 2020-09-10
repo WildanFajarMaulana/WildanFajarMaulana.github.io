@@ -16,7 +16,6 @@ function scrollFunction(){
 }
 
 const isinavbar = document.querySelector("#isinavbar");
-
 isinavbar.addEventListener("click",function(){
 	navbar.classList.toggle("navbar-click");
 });

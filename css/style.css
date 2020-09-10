@@ -2,7 +2,7 @@
 .navbar-click{
 background-color: black;
 transition: .3s ease-in-out;
-min-height: 280px;
+min-height: 270px;
 }
 .navbar-fixed{
 transition:  .3s ease-in-out;
@@ -57,7 +57,7 @@ margin-top: 3px;
 }
 /*jumbroton*/
 .jumbotron{
-background-image: url("../img/kontakbg.jpg");
+background-image: url("../img/temalanding.jpg");
 background-size: cover;
 background-position: center;
 height: 660px;
@@ -65,7 +65,6 @@ text-align: center;
 position: relative;
 margin-top: -30px;
 font-family: monoton;
-background-attachment: fixed;
 }
 .jumbotron .container{
 z-index: 1;
@@ -277,7 +276,7 @@ padding-bottom: 5px;
 margin-bottom: -8px;
 }
 .jumbotron{
-background-image: url("../img/kontakbg.jpg");
+background-image: url("../img/temalanding.jpg");
 background-size: cover;
 height: 735px;
 margin-top: -80px;
